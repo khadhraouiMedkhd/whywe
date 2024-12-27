@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Green Energy Co.",
+      "industry": "Renewable Energy",
+      "budget": 100000,
+      "targetAudience": "Eco-Conscious Individuals",
+      "preferredEventTypes": ["Conference", "Expo"],
+      "location": "New York"
+    },
+    {
+      "id": 2,
+      "name": "Tech Pioneers",
+      "industry": "Technology",
+      "budget": 150000,
+      "targetAudience": "Tech Enthusiasts",
+      "preferredEventTypes": ["Hackathon", "Webinar"],
+      "location": "San Francisco"
+    },
+    {
+      "id": 3,
+      "name": "Health Horizons",
+      "industry": "Healthcare",
+      "budget": 80000,
+      "targetAudience": "Health Professionals",
+      "preferredEventTypes": ["Workshop", "Seminar"],
+      "location": "Boston"
+    },
+    {
+      "id": 4,
+      "name": "Fashion Forward",
+      "industry": "Fashion",
+      "budget": 120000,
+      "targetAudience": "Trendsetters",
+      "preferredEventTypes": ["Fashion Show", "Expo"],
+      "location": "Paris"
+    },
+    {
+      "id": 5,
+      "name": "Auto Innovators",
+      "industry": "Automotive",
+      "budget": 200000,
+      "targetAudience": "Car Enthusiasts",
+      "preferredEventTypes": ["Expo", "Conference"],
+      "location": "Detroit"
+    },
+    {
+      "id": 6,
+      "name": "EduLearn Inc.",
+      "industry": "Education",
+      "budget": 50000,
+      "targetAudience": "Educators",
+      "preferredEventTypes": ["Workshop", "Seminar"],
+      "location": "London"
+    },
+    {
+      "id": 7,
+      "name": "Adventure Gear",
+      "industry": "Outdoor Equipment",
+      "budget": 75000,
+      "targetAudience": "Adventurers",
+      "preferredEventTypes": ["Expo", "Workshop"],
+      "location": "Denver"
+    },
+    {
+      "id": 8,
+      "name": "FinTech Leaders",
+      "industry": "Finance",
+      "budget": 180000,
+      "targetAudience": "Investors",
+      "preferredEventTypes": ["Conference", "Webinar"],
+      "location": "Singapore"
+    },
+    {
+      "id": 9,
+      "name": "Gaming Giants",
+      "industry": "Gaming",
+      "budget": 90000,
+      "targetAudience": "Gamers",
+      "preferredEventTypes": ["Expo", "Hackathon"],
+      "location": "Tokyo"
+    },
+    {
+      "id": 10,
+      "name": "Art Visionaries",
+      "industry": "Arts",
+      "budget": 60000,
+      "targetAudience": "Artists",
+      "preferredEventTypes": ["Exhibition", "Workshop"],
+      "location": "Rome"
+    },
+    {
+      "id": 11,
+      "name": "Culinary Creations",
+      "industry": "Food & Beverage",
+      "budget": 70000,
+      "targetAudience": "Food Enthusiasts",
+      "preferredEventTypes": ["Workshop", "Expo"],
+      "location": "Barcelona"
+    },
+    {
+      "id": 12,
+      "name": "Sports Heroes",
+      "industry": "Sports",
+      "budget": 110000,
+      "targetAudience": "Athletes",
+      "preferredEventTypes": ["Conference", "Workshop"],
+      "location": "Berlin"
+    },
+    {
+      "id": 13,
+      "name": "Space Explorers",
+      "industry": "Aerospace",
+      "budget": 250000,
+      "targetAudience": "Space Enthusiasts",
+      "preferredEventTypes": ["Conference", "Expo"],
+      "location": "Houston"
+    },
+    {
+      "id": 14,
+      "name": "Luxury Living",
+      "industry": "Real Estate",
+      "budget": 95000,
+      "targetAudience": "High-Net-Worth Individuals",
+      "preferredEventTypes": ["Expo", "Seminar"],
+      "location": "Dubai"
+    },
+    {
+      "id": 15,
+      "name": "Pet Lovers Unite",
+      "industry": "Pet Products",
+      "budget": 40000,
+      "targetAudience": "Pet Owners",
+      "preferredEventTypes": ["Expo", "Workshop"],
+      "location": "Sydney"
+    }
+  ]
+  

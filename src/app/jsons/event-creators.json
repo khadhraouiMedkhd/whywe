@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Emma Johnson",
+      "expertiseArea": "Renewable Energy",
+      "eventBudget": 90000,
+      "targetAudience": "Eco-Conscious Individuals",
+      "eventTypes": ["Conference", "Workshop"],
+      "location": "New York"
+    },
+    {
+      "id": 2,
+      "name": "Michael Brown",
+      "expertiseArea": "Technology",
+      "eventBudget": 140000,
+      "targetAudience": "Tech Enthusiasts",
+      "eventTypes": ["Hackathon", "Webinar"],
+      "location": "San Francisco"
+    },
+    {
+      "id": 3,
+      "name": "Sophia Lee",
+      "expertiseArea": "Healthcare",
+      "eventBudget": 70000,
+      "targetAudience": "Health Professionals",
+      "eventTypes": ["Seminar", "Workshop"],
+      "location": "Boston"
+    },
+    {
+      "id": 4,
+      "name": "Liam Wilson",
+      "expertiseArea": "Fashion",
+      "eventBudget": 110000,
+      "targetAudience": "Trendsetters",
+      "eventTypes": ["Fashion Show", "Expo"],
+      "location": "Paris"
+    },
+    {
+      "id": 5,
+      "name": "Olivia Martinez",
+      "expertiseArea": "Automotive",
+      "eventBudget": 190000,
+      "targetAudience": "Car Enthusiasts",
+      "eventTypes": ["Expo", "Conference"],
+      "location": "Detroit"
+    },
+    {
+      "id": 6,
+      "name": "Noah Anderson",
+      "expertiseArea": "Education",
+      "eventBudget": 40000,
+      "targetAudience": "Educators",
+      "eventTypes": ["Seminar", "Workshop"],
+      "location": "London"
+    },
+    {
+      "id": 7,
+      "name": "Ava Thompson",
+      "expertiseArea": "Outdoor Equipment",
+      "eventBudget": 70000,
+      "targetAudience": "Adventurers",
+      "eventTypes": ["Workshop", "Expo"],
+      "location": "Denver"
+    },
+    {
+      "id": 8,
+      "name": "Ethan Garcia",
+      "expertiseArea": "Finance",
+      "eventBudget": 170000,
+      "targetAudience": "Investors",
+      "eventTypes": ["Conference", "Webinar"],
+      "location": "Singapore"
+    },
+    {
+      "id": 9,
+      "name": "Isabella Rodriguez",
+      "expertiseArea": "Gaming",
+      "eventBudget": 85000,
+      "targetAudience": "Gamers",
+      "eventTypes": ["Expo", "Hackathon"],
+      "location": "Tokyo"
+    },
+    {
+      "id": 10,
+      "name": "Lucas Martinez",
+      "expertiseArea": "Arts",
+      "eventBudget": 55000,
+      "targetAudience": "Artists",
+      "eventTypes": ["Exhibition", "Workshop"],
+      "location": "Rome"
+    },
+    {
+      "id": 11,
+      "name": "Mia Gonzalez",
+      "expertiseArea": "Food & Beverage",
+      "eventBudget": 65000,
+      "targetAudience": "Food Enthusiasts",
+      "eventTypes": ["Expo", "Workshop"],
+      "location": "Barcelona"
+    },
+    {
+      "id": 12,
+      "name": "William Clark",
+      "expertiseArea": "Sports",
+      "eventBudget": 100000,
+      "targetAudience": "Athletes",
+      "eventTypes": ["Conference", "Workshop"],
+      "location": "Berlin"
+    },
+    {
+      "id": 13,
+      "name": "Charlotte Lewis",
+      "expertiseArea": "Aerospace",
+      "eventBudget": 240000,
+      "targetAudience": "Space Enthusiasts",
+      "eventTypes": ["Conference", "Expo"],
+      "location": "Houston"
+    },
+    {
+      "id": 14,
+      "name": "James Walker",
+      "expertiseArea": "Real Estate",
+      "eventBudget": 90000,
+      "targetAudience": "High-Net-Worth Individuals",
+      "eventTypes": ["Seminar", "Expo"],
+      "location": "Dubai"
+    },
+    {
+      "id": 15,
+      "name": "Amelia Young",
+      "expertiseArea": "Pet Products",
+      "eventBudget": 35000,
+      "targetAudience": "Pet Owners",
+      "eventTypes": ["Expo", "Workshop"],
+      "location": "Sydney"
+    }
+  ]
+  

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <style>
+    .dashboard-container {
+      padding: 20px;
+    }
+    .card-header {
+      background-color: #f8f9fa;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .table-responsive {
+      margin-top: 20px;
+    }
+    .accordion .card-header { 
+        cursor: pointer; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container dashboard-container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header text-center">
+            <h4 class="card-title">Admin Dashboard</h4>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h5 class="card-title">Total Sponsors</h5>
+                  </div>
+                  <div class="card-body text-center">
+                    <h3>150</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h5 class="card-title">Total Organizers</h5>
+                  </div>
+                  <div class="card-body text-center">
+                    <h3>200</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h5 class="card-title">Total Matches</h5>
+                  </div>
+                  <div class="card-body text-center">
+                    <h3>75</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="admin-container">
+              <button id="refreshBtn" (click)="onRefresh()">Refresh</button>
+                 <div class="nav-tabs-navigation">
+                          <div class="nav-tabs-wrapper">
+                              <ngb-tabset [justify]="'center'">
+                                  <ngb-tab title="Sponsors A">
+                                      <ng-template ngbTabContent>
+                                        <div class="sponsor-container">
+                                          <h2>Sponsor List</h2>
+                                          <table class="sponsor-table">
+                                            <thead>
+                                              <tr>
+                                                <th>ID</th>
+                                                <th>Name</th>
+                                                <th>Industry</th>
+                                                <th>Budget</th>
+                                                <th>Target Audience</th>
+                                                <th>Preferred Event Types</th>
+                                                <th>Location</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr *ngFor="let sponsor of sponsors">
+                                                <td>{{ sponsor.id }}</td>
+                                                <td>{{ sponsor.name }}</td>
+                                                <td>{{ sponsor.industry }}</td>
+                                                <td>{{ sponsor.budget | currency }}</td>
+                                                <td>{{ sponsor.targetAudience }}</td>
+                                                <td>{{ sponsor.preferredEventTypes.join(', ') }}</td>
+                                                <td>{{ sponsor.location }}</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                                                              </ng-template>
+                                  </ngb-tab>
+                                  <ngb-tab title="Event applications List">
+                                      <ng-template ngbTabContent>
+                                        <div class="event-container">
+                                          <h2>Event List</h2>
+                                          <table class="event-table">
+                                            <thead>
+                                              <tr>
+                                                <th>ID</th>
+                                                <th>Name</th>
+                                                <th>Expertise Area</th>
+                                                <th>Budget</th>
+                                                <th>Target Audience</th>
+                                                <th>Event Types</th>
+                                                <th>Location</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr *ngFor="let event of eventCreators">
+                                                <td>{{ event.id }}</td>
+                                                <td>{{ event.name }}</td>
+                                                <td>{{ event.expertiseArea }}</td>
+                                                <td>{{ event.eventBudget | currency }}</td>
+                                                <td>{{ event.targetAudience }}</td>
+                                                <td>{{ event.eventTypes.join(', ') }}</td>
+                                                <td>{{ event.location }}</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                        
+                                      </ng-template>
+                                  </ngb-tab>
+                                  <ngb-tab title="Matched Grid">
+                                      <ng-template ngbTabContent>
+                                        <div id="spinner" *ngIf="isLoading" class="spinner">Loading...</div>
+            
+                                        <div id="matchesGrid" *ngIf="!isLoading" class="matches-grid">
+                                          <div *ngFor="let match of matchResults" 
+                                          class="match-item" 
+                                          [ngStyle]="{'background-color': getBackgroundColor(match.score)}">
+                                            <p>Sponsor: {{ match.sponsorName }}</p>
+                                            <p>Event Creator: {{ match.eventCreatorName }}</p>
+                                            <p><span style="font-weight: bold;">Score: {{ match.score }}</span></p>
+                                          </div>
+                                        </div>
+                                      </ng-template>
+                                  </ngb-tab>
+                              </ngb-tabset>
+                          </div>
+                      </div>
+          
+            </div>
+            
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

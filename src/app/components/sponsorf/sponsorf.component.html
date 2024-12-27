@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sponsorship Request Form</title>
+  <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/paper-kit.css" rel="stylesheet"> -->
+  <style>
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      width: 100%;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <div class="card">
+      <div class="card-header text-center">
+        <h4 class="card-title">Sponsorship Request Form</h4>
+      </div>
+      <div class="card-body">
+        <!-- Form -->
+        <form>
+          <!-- Applicant Information -->
+          <h5 class="text-center">Applicant Information</h5>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="applicantName">Name of Organisation/Individual</label>
+                <input type="text" class="form-control" id="applicantName" placeholder="Enter name" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="contactPerson">Contact Person Name</label>
+                <input type="text" class="form-control" id="contactPerson" placeholder="Enter contact person name">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter phone number">
+              </div>
+            </div>
+          </div>
+
+          <!-- Sponsorship Proposal Details -->
+          <h5 class="text-center mt-4">Sponsorship Proposal Details</h5>
+          <div class="form-group">
+            <label for="proposalTitle">Title of the Proposal</label>
+            <input type="text" class="form-control" id="proposalTitle" placeholder="Enter proposal title" required>
+          </div>
+          <div class="form-group">
+            <label for="purpose">Purpose of Sponsorship</label>
+            <textarea class="form-control" id="purpose" rows="3" placeholder="Describe the purpose" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="amountRequested">Amount/Value Requested</label>
+            <input type="number" class="form-control" id="amountRequested" placeholder="Enter amount" required>
+          </div>
+
+          <!-- Acknowledgment and Agreement -->
+          <h5 class="text-center mt-4">Acknowledgment and Agreement</h5>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="declaration" required>
+            <label class="form-check-label" for="declaration">I affirm that all information provided is true and accurate.</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="consent" required>
+            <label class="form-check-label" for="consent">I agree to the terms and conditions.</label>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="form-group text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-round">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table Section -->
+  <div class="row mt-5">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header text-center">
+          <h4 class="card-title">Sponsorship Proposals</h4>
+        </div>
+        <div class="card-body">
+          <table class="table table-hover">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Type</th>
+                <th scope="col">Purpose</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Date</th>
+                <th scope="col">Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Helping Hands Foundation</td>
+                <td>Organisation</td>
+                <td>Community Support Program</td>
+                <td>$10,000</td>
+                <td>2023-08-15</td>
+                <td>New York, USA</td>
+              </tr>
+              <!-- Additional rows here -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script> -->
+</body>
+</html>

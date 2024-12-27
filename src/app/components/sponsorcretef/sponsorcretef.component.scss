@@ -1,0 +1,297 @@
+.navbar-no-transparent {
+    background-color: #000; /* Choisissez la couleur de fond (ici noir) */
+    opacity: 1 !important; /* Force l'opacité complète */
+    filter: none !important; /* Supprime tout effet de transparence */
+    background-image: none !important; /* Supprime toute image de fond */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Facultatif : ajoute une ombre subtile */
+}
+.carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-slide img {
+    width: 98%;
+    height: auto;
+  }
+  
+  .carousel-slide .overlay {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.804); /* White with 50% opacity */
+    color: black;
+    text-align: center;
+    padding:50px;
+  }
+  
+  .carousel-slide .overlay h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .carousel-slide .overlay p {
+    margin: 5px 0 0;
+    font-size: 1em;
+  }
+  .enhanced-paragraph {
+    font-size: 22px; /* Larger font size for better readability */
+    font-weight: 500; /* Slightly bold text for emphasis */
+    line-height: 1.6; /* Improved line spacing for clarity */
+    color: #333; /* Dark gray text for better contrast */
+    background-color: #f9f9f98a; /* Light background for distinction */
+    padding: 10px 15px; /* Add padding for a cleaner appearance */
+    // border-left: 4px solid #007BFF; /* Left border for visual emphasis */
+    border-radius: 5px; /* Slightly rounded corners */
+    margin: 15px 0; /* Space around the paragraph */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.sports-heading {
+    font-family: 'Futura', sans-serif; /* Use Futura font */
+    font-weight: bold; /* Make it bold */
+    font-size: 24px; /* Adjust size for visibility */
+    color: #2c3e50; /* Dark color for a professional look */
+    text-transform: uppercase; /* Optional: make text uppercase */
+    letter-spacing: 1px; /* Slight spacing for a cleaner look */
+    margin: 20px 0; /* Add some space around */
+
+}
+.marketing-heading {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 30px; /* Adjust size for emphasis */
+    color: #26265a; /* Dark blue color */
+    font-family: Arial, sans-serif; /* Use a clean and professional font */
+    margin: 15px 0; /* Add some spacing around the heading */
+    text-align: center;
+
+}
+.startwithus-heading {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 30px; /* Adjust size for emphasis */
+    color: #ffffff; /* Dark blue color */
+    font-family: Arial, sans-serif; /* Use a clean and professional font */
+    margin: 15px 0; /* Add some spacing around the heading */
+    text-align: center;
+
+}
+.steps-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .steps-title {
+    font-size: 24px;
+    color: #2c3e50; /* Dark blue-gray */
+    margin-bottom: 10px;
+  }
+  
+  .steps-subtitle {
+    font-size: 18px;
+    color: #666; /* Gray */
+    margin-bottom: 30px;
+  }
+  
+  .steps-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    justify-content:space-evenly;
+  }
+  
+  .step {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -10px;
+    width: 1px;
+    background-color: #ccc; /* Light gray line */
+  }
+  .step-number {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #1a1a8c; /* Dark blue */
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text */
+  }
+  
+  .step-title {
+    font-size: 18px;
+    color: #1a1a8c; /* Dark blue */
+    margin-bottom: 10px;
+  }
+  
+  .step-description {
+    font-size: 14px;
+    color: #555; /* Darker gray */
+    line-height: 1.6;
+  }
+  
+  .registerF {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c9d6db;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-container {
+    text-align: center;
+    width: 60%;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #06293d;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #06293d;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1;
+    position: relative;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #subscribe {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #64afff;
+    color: #06293d;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .footer-links {
+    margin-top: 20px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #06293d;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icons i {
+    margin: 0 10px;
+    color: #06293d;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Card Styles */
+.cardportfolio {
+  background-color: #ffffff0c;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.cardportfolio img {
+  width: 100%;         /* Responsive width */
+  height: 100%;        /* Fills the square container */
+  object-fit: cover;   /* Crops and focuses on the center of the image */
+  object-position: center; /* Ensures the cropping happens at the center */
+  display: block;
+}
+
+.cardportfolio .img-container {
+  width: 100%;         /* Full width of the parent container */
+  padding-top: 100%;   /* Maintains a 1:1 aspect ratio for the square */
+  position: relative;  /* Required for positioning the img inside */
+  overflow: hidden;    /* Hides parts of the image outside the square */
+}
+
+.cardportfolio .img-container img {
+  position: absolute;  /* Allows precise positioning */
+  top: 0;
+  left: 0;
+}
+.cardportfolio .date {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.cardportfolio h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #102a43;
+}
+
+.cardportfolio p {
+  font-size: 16px;
+  color: #334e68;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.read-more span {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.section-grey{
+  background-color: #c9d6db;
+}
